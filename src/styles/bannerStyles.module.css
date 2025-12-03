@@ -1,0 +1,51 @@
+.bannerSection {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f0f9ff, #ffffff); /* sky-50 to white */
+}
+
+.bannerContainer {
+  max-width: 1200px; /* similar to Tailwind container */
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem; /* px-4 */
+}
+
+.bannerTitleSmall {
+  font-size: 2.25rem; /* text-4xl */
+  color: #b91c1c; /* text-red-800 */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.bannerTitle {
+  font-weight: bold;
+  margin-bottom: 1.5rem; /* mb-6 */
+  transition: opacity 0.7s, transform 0.7s;
+  opacity: 0;
+  transform: translateY(1.5rem); /* translate-y-6 initial */
+}
+
+.inView {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bannerText {
+  margin-bottom: 2rem; /* mb-8 */
+  font-size: 1.125rem; /* text-lg */
+  color: #475569; /* text-slate-600 */
+}
+
+.bannerButton {
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.bannerButton:hover {
+  transform: scale(1.05); /* hover:scale-105 */
+}

@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh; /* full viewport height */
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Main element with vertical spacing between children */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem; /* same as Tailwind space-y-24 */
+}

@@ -1,0 +1,17 @@
+.footer {
+  background-color: #f1f5f9; /* bg-slate-100 */
+  padding: 2rem 0; /* py-8 */
+  margin-top: 3rem; /* mt-12 */
+}
+
+.footerContainer {
+  max-width: 1200px; /* container */
+  margin: 0 auto; /* mx-auto */
+  padding: 0 1rem; /* px-4 */
+  font-size: 0.875rem; /* text-sm */
+  color: #475569; /* text-slate-600 */
+}
+
+.footerItem + .footerItem {
+  margin-top: 0.5rem; /* mt-2 between items */
+}

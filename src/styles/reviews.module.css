@@ -1,0 +1,30 @@
+.reviewsSection {
+  max-width: 1200px; /* container */
+  margin: 0 auto; /* mx-auto */
+  padding: 0 1rem; /* px-4 */
+}
+
+.reviewsTitle {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* space-y-4 */
+}
+
+.reviewItem {
+  padding: 1rem; /* p-4 */
+  border-left: 4px solid #000; /* border-l-4 */
+}
+
+.reviewText {
+  font-style: italic;
+}
+
+.reviewFooter {
+  margin-top: 0.5rem; /* mt-2 */
+}
